@@ -1,0 +1,52 @@
+.EightBall {
+  /* Existing styles */
+  box-shadow: 5px 5px 10px #678;
+  margin: 50px; 
+  border-radius: 50%;
+  width: 300px; 
+  height: 300px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  /* New styles */
+  transform: scale(1.2); 
+}
+
+.reset-button,
+.shake-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px; 
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.input-field {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-color: red;
+  border-radius: 5px;
+  margin-right: 10px;
+}
